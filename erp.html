@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <!--메타 뷰포트-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+        <title>ELC ERP</title>
+        
+        <link rel="stylesheet" href="css/style3.css" />
+        <!--폰트어썸-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <!--Tinos 폰트-->
+		<link href="https://fonts.cdnfonts.com/css/tinos" rel="stylesheet">
+            
+    </head>
+    
+    <body>
+
+        <!--전체 시작-->
+        <div id="wrap" class="bipc erp">
+            <div class="x_button">
+                <a href="#" id="popupClose"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+            <div class="big_title">
+                <h1>ELC ERP Project</h1>
+                <div class="inner2">
+                    <p class="year font_14"><span>Year.</span> 2025. 05 ~ 2025. 06</p>
+                    <img src="images/erp_slider2.png">
+                </div>
+            </div>
+            <div class="project inner">
+                <h1>Project overview<br>
+                </h1>
+                <div class="about_box">
+                    <div class="">
+                        <h3>About the organization</h3>
+                        <p>(주)ELC 그룹은 ESG경영과 탄소저감을 목표로 <span>폐기물을 소각하여 재활용</span>하는 회사입니다.<br>
+                        전국에 10개 지점에서 <span>각각 생산량, 계약현황 등 시스템 관리</span>가 필요해서<br>
+                        <span>ERP 통합시스템 구축</span>이 필요하다고 본사에서 구축요청이 왔습니다.<br>
+                        기능적으로 많은 부분이 들어가기 때문에
+                        <span>최대한 간결하고 깔끔한 디자인</span>을 요청하였고,<br>
+                        <span>태블릿</span>에서도 바로 사용할 수 있도록 최대한 <span>반응형의 기능</span>을 넣어달라고 요구하였습니다.<br>
+                        </p>
+                    </div>
+                    <div class="use">
+                        <h3>Use Stack</h3>
+                        <ul>
+                            <li>Photoshop</li>
+                            <li>Illustrator</li>
+                            <li>html5</li>
+                            <li>css3</li>
+                            <li>js</li>
+                        </ul>
+                        <h3>Project Contribution</h3>
+                        <p class="font_14">디자인 100% + 퍼블리싱 100% + 부트스트랩</p>
+                    </div>
+                </div>
+            </div>
+            <div class="inner2">
+                <div class="after">
+                    <h4>After</h4>
+                    <img src="images/erp_main.png">
+                    <p>
+                    기존 로고에 걸맞는 <span class="blue_color">파란색 계열의 포인트 컬러</span>를 넣었고<br>
+                    디자인보다는 <span class="blue_color">퍼블리싱과 프론트 기능</span>에 대한 요구가 더 많아서<br>
+                    <span class="blue_color">클릭시 나타나는 기능</span>들과 <span class="blue_color">폼 양식, 달력 선택, 모달창</span> 등 주요 요소들을 요구에 맞게 추가했습니다.<br>
+                    어느 기기에서도 쉽게 입력하고 작업할 수 있도록 <span class="blue_color">PC, 태블릿, 모바일까지 반응형</span>으로 작업하였습니다.<br>
+                    고객측에서 <span class="blue_color">디자인이 깔끔하고 기능또한 충분하다는 평</span>을 받았습니다.
+                    </p>
+                    <img src="images/erp_circle.png">
+                </div>
+                
+                <div class="sub">
+                    <h4>Sub page</h4>
+                    <img src="images/erp_sub1.png">
+                    <img src="images/erp_sub2.png">
+                    <img src="images/erp_sub3.png">
+                    <img src="images/erp_sub4.png">
+                </div>
+                <div class="site">
+                    <h4>Visit Site</h4>
+                    <div class="more_wrap">
+                        <a href="https://kangmorae.github.io/erp/sub11%20-%20%EC%83%9D%EC%82%B0%EC%9E%85%EB%A0%A5_%EC%9B%90%EB%AC%BC%EB%B0%98%EC%9E%85.html" class="more_link" target="_blank">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--전체 끝-->
+
+        <!-- Script JS-->
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+        <script src="https://unpkg.com/@studio-freight/lenis@1.0.32/dist/lenis.min.js"></script>
+        <script>
+            $("#popupClose").on("click", function(e){
+
+               e.preventDefault();
+
+               window.close();
+
+            });
+
+        </script>
+
+    </body>
+</html>    
