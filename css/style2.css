@@ -563,7 +563,6 @@ input[type=number] {
 .wonderland-descr {
   display: block;
   width: 100%;
-  max-width: 4.3rem;
   font-size: 0.17rem;
   line-height: 1.3;
   margin: min(1.59rem, 23vh) auto 0;
@@ -1930,7 +1929,7 @@ li.category.isActive {
     .con01Img{float:none;width:100%;height: auto;text-align: center;margin:0;}
     .con01Img img{width:200px;text-align: center;}
     .top_t h5{font-size:18px;}
-    .top_t p{font-size:16px;}
+    .top_t p{font-size:14px;line-height: 18px;}
     .con01Box02{margin-top:30px;}
     
     .mainCon00{padding:0 20px;}
@@ -1958,7 +1957,10 @@ li.category.isActive {
 
 
 @media screen and (max-width:768px) {
-    .con01Box02 ul li .date{width: auto;}
+    .con01Box02 ul li .date{width: auto;float:none;height:auto;font-weight: bold;
+        margin-bottom: 10px;}
+    .con01Box02 ul li>div ul li{margin-bottom:0;}
+    .con01Box02 ul li>div ul li:last-child{margin-bottom:20px;}
 }
 
 
